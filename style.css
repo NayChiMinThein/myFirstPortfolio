@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@400;700&display=swap');
+
+:root{
+    --primary-text : 'Merriweather Sans', sans-serif;
+    --primary-color : #00a5a5;
+    --secondary-color : #4fbecf;
+}
+
+nav, footer{
+    font-family: var(--primary-text);
+}
+
+.navbar-brand{
+    color: var(--secondary-color);
+}
+
+.nav-link:hover{
+    color: var(--secondary-color);
+}
+
+header{
+    padding-top: 75px;
+    background-color: var(--primary-color);
+    font-family: var(--primary-text);
+}
+
+header h2{
+    letter-spacing: 6px;
+}
+
+header h6{
+    letter-spacing: 1px;
+}
+
+section{
+    font-family: var(--primary-text);
+    padding-top: 95px;
+}
+
+.progress-bar{
+    background-color: var(--primary-color);
+}
+
+.icon{
+    color: var(--secondary-color);
+}
+
+.text-height{
+    line-height: 27px;
+}
+
+.wid{
+    background-color: var(--primary-color);
+}
+
+.text-card{
+    transition: transform 0.3s ;
+}
+
+.text-card:hover{
+    transform: scale(1.03);
+}
+
+.demo-color{
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.demo-color:hover{
+    text-decoration: underline;
+}
+
+footer i{
+    color: var(--primary-color);
+}
+
+footer i:hover{
+    color: var(--secondary-color);
+}
+
+/* Scrollbar  */
+::-webkit-scrollbar{
+    width: 8px;
+}
+
+::-webkit-scrollbar-track{
+    background: #4b4b4b;
+}
+
+::-webkit-scrollbar-thumb{
+    background: var(--secondary-color);
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background: var(--primary-color);
+}
